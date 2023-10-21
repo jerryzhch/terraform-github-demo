@@ -8,8 +8,8 @@ terraform {
 
   # # Remote backend
   backend "azurerm" {
-    resource_group_name  = "wga-rg"       # Change to your own resource group name
-    storage_account_name = "wgatfstatesa" # Change to your own storage account name
+    resource_group_name  = "demo-rfxq2-rg"       # Change to your own resource group name
+    storage_account_name = "demorfxq2sa" # Change to your own storage account name
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
